@@ -1,0 +1,11 @@
+/*
+Theme Name:     CASI Theme
+Theme URI:      http://cals.wisc.edu/developers
+Description:    Child theme for the CALS 2013 Theme
+Author:         Al Nemec & Daniel Dropik
+Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEMEC
+Template:       calsmain2013
+Version:        0.1.0
+*/
+
+@import url("dist/styles/minified/master.min.css");

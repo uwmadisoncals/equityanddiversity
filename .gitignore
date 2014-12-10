@@ -1,0 +1,8 @@
+node_modules
+*.sass-cache*
+
+/FirePHPCore/
+/build/firephp-*
+/build/phar
+.profile-firefox/
+.build/

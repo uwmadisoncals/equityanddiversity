@@ -1,0 +1,100 @@
+/* Buttons */
+
+// the prefix 'calssl' is an acronym for CALS Sass Library
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+a.calssl-button {
+	background: #c93f3f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c93f3f 0%, #a01818 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c93f3f), color-stop(100%,#a01818)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c93f3f 0%,#a01818 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c93f3f 0%,#a01818 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 ); /* IE6-9 */
+	border: none;
+	border-bottom: 3px solid #7e1010;
+	border-radius: 2px;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 24px 10px;
+	text-decoration: none;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+a.calssl-button:hover, a.calssl-button:focus {
+	background: #af3838; /* Old browsers */
+	background: -moz-linear-gradient(top,  #af3838 0%, #771111 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#af3838), color-stop(100%,#771111)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #af3838 0%,#771111 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #af3838 0%,#771111 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #af3838 0%,#771111 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #af3838 0%,#771111 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af3838', endColorstr='#771111',GradientType=0 ); /* IE6-9 */
+	border-bottom: 3px solid #6b0b0b;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+input[type="reset"]:active, a.calssl-button:active {
+	background: #af3838; /* Old browsers */
+	background: -moz-linear-gradient(top,  #af3838 0%, #771111 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#af3838), color-stop(100%,#771111)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #af3838 0%,#771111 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #af3838 0%,#771111 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #af3838 0%,#771111 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #af3838 0%,#771111 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af3838', endColorstr='#771111',GradientType=0 ); /* IE6-9 */
+	border: none;
+	border-top: 3px solid #961515;
+	padding: 10px 24px 11px;
+}
+
+a.calssl-button.blue{
+	background: #5598d1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5598d1 0%, #4a82b1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5598d1), color-stop(100%,#4a82b1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5598d1 0%,#4a82b1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5598d1 0%,#4a82b1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 ); /* IE6-9 */
+	border-bottom: 3px solid #3a6488;
+	color: #fff;
+	padding: 0.5em;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+
+a.calssl-button.blue:hover,
+a.calssl-button.blue:focus {
+	background: #5598d1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5598d1 0%, #3a6488 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5598d1), color-stop(100%,#3a6488)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5598d1 0%,#3a6488 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5598d1 0%,#3a6488 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#3a6488',GradientType=0 ); /* IE6-9 */
+	border-bottom: 3px solid #2e4e68;
+
+}
+
+a.calssl-button.blue:active {
+	border: none;
+	border-top: 3px solid #4c86b7;
+}

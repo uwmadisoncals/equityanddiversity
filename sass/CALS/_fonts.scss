@@ -1,0 +1,40 @@
+/* Roboto Normal and Thin (300,400) */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+/* Open Sans Normal and Bold (400,700) */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+/* Raleway Light (300) */
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,500);
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Roboto','Open Sans',sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Roboto','Open Sans',sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-family: 'Open Sans',sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}

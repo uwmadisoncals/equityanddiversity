@@ -1,0 +1,77 @@
+/*********************/
+/* Clear Fix         */
+/*********************/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.row:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.row {
+    *zoom: 1;
+}
+
+
+.row {
+
+  .span-25 {
+    float: left;
+    width: 25%;
+  }
+
+  .span-50 {
+    float: left;
+    width: 50%;
+  }
+
+  .span-75 {
+    float: left;
+    width: 75%;
+  }
+
+  .span-33 {
+    float: left;
+    width: 33%;
+  }
+
+  .span-66 {
+    float: left;
+    width: 66%;
+  }
+
+
+}
