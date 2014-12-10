@@ -33,7 +33,7 @@ gulp.task('styles', function(){
 
 //Scripts
 gulp.task('scripts', function(){
-    return gulp.src(['./js/casi_custom.js'])
+    return gulp.src(['./js/equityanddiversity_custom.js'])
     .pipe(concat('main.js'))
     .pipe(gulp.dest('dist/scripts/unminified'))
     .pipe(rename({suffix:'.min'}))
