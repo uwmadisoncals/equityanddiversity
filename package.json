@@ -1,0 +1,19 @@
+{
+  "name": "The Equity and diversity theme",
+  "version": "0.1.0",
+  "description": "Contains the gulp plugins necessary to run gulp.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "~3.8.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uwmadisoncals/equityanddiversity.git"
+  },
+  "author": "CALS IT Development",
+  "bugs": {
+    "url": "https://github.com/uwmadisoncals/equityanddiversity/issues"
+  },
+  "homepage": "https://github.com/uwmadisoncals/equityanddiversity"
+}
