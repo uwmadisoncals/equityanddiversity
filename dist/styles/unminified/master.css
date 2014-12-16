@@ -1,4 +1,4 @@
-/*
+/**
 http://www.fossildraw.com/draw.php?currow=6&curcol=2&font=3&grid=off&cellh=6&cellw=13&line=single&mod=smpl&clpcrow=&clpccol=&clprow=&clpcol=&scrlrow=0&scrlcol=0&olduact=cleft&qdb=ba0boilerplate+sass&qeb=ha0&qfb=ba0CALS+sass&curtext=CALS+sass&qgb=ha0&qhb=ba0Theme+Specific+Sass&qhc=ta0Partials+Modules+Vendor&uact=box&txt_status=***+Busy+***&p1=1&text_cell=CALS+sass+library&p2=1
  SASS Cascading Structure:
              +------------+
@@ -89,6 +89,7 @@ table {
 /* Clear Fix         */
 /*********************/
 * {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -169,6 +170,7 @@ a.calssl-button {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#c93f3f), to(#a01818));
   background: linear-gradient(to bottom, #c93f3f 0%, #a01818 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 );
@@ -200,6 +202,7 @@ a.calssl-button:hover, a.calssl-button:focus {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#af3838), to(#771111));
   background: linear-gradient(to bottom, #af3838 0%, #771111 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
@@ -220,6 +223,7 @@ input[type="reset"]:active, a.calssl-button:active {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#af3838), to(#771111));
   background: linear-gradient(to bottom, #af3838 0%, #771111 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
@@ -239,6 +243,7 @@ a.calssl-button.blue {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#5598d1), to(#4a82b1));
   background: linear-gradient(to bottom, #5598d1 0%, #4a82b1 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 );
@@ -261,6 +266,7 @@ a.calssl-button.blue:focus {
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#5598d1), to(#3a6488));
   background: linear-gradient(to bottom, #5598d1 0%, #3a6488 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5598d1', endColorstr='#3a6488',GradientType=0 );

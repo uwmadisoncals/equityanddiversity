@@ -5,9 +5,9 @@ notify = require('gulp-notify'),
 minifycss = require('gulp-minify-css'),
 livereload = require('gulp-livereload'),
 autoprefixer = require('gulp-autoprefixer')
-//lr = require('tiny-lr'),
+lr = require('tiny-lr'),
 concat = require('gulp-concat'),
-//server = lr(),
+server = lr(),
 uglify = require('gulp-uglify');
 
 
@@ -43,17 +43,29 @@ gulp.task('scripts', function(){
     .pipe(notify({ message: 'Scripts task complete' }));
 });
 
+
 // Watch
 gulp.task('watch', function() {
 
   // Listen on port 35729
+  server.listen(35729, function (err) {
+    if (err) {
+      return console.log(err)
+    };
 
-livereload.listen()
-
-// Watch .scss files
+    // Watch .scss files
     gulp.watch('sass/**/*.scss', ['styles']);
 
     // Watch .js files
     gulp.watch('js/**/*.js', ['scripts']);
 
-});
+    // Watch image files
+    gulp.watch('img/**/*', ['images']);
+
+
+
+
+  });
+
+  });
+
