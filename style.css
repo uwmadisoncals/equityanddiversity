@@ -9,3 +9,37 @@ Version:        0.1.0
 */
 
 @import url("dist/styles/minified/master.min.css");
+
+/* Add custom CSS Rules here */
+.single #content, .page #content, .search-results #content, .archive #content, .error404 #content, .search-no-results #content, body.home #content {
+position: relative;
+background: #fff;
+padding: 30px;
+color: #343434;
+overflow: hidden;
+box-sizing: border-box;
+-moz-box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+float: left;
+width: 100%;
+margin-right: -20px;
+margin-bottom: 40px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+min-height: 220px;
+}
+
+/*header.entry-header {
+	display:none;
+}*/
+
+body#calsblack.page div.mobileScroll footer div.ieFooter div.inner div#pre-footer div.linksContainer ul#quick_links li.quick_links_list div.menu ul li.page_item a{
+font-size:14px;
+}
+
+/*Overrides any custom background color */
+body.custom-background {
+    background-color: #E8E6D9;
+}
