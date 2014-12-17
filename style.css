@@ -7,7 +7,7 @@ Author URI:     http://www.wisc.edu/directories/person.php?name=ALBERT%20M%20NEM
 Template:       calsmain2013
 Version:        0.1.0
 */
-
+@import url("..calsmain2013/dist/assets/css/main.min.css");
 @import url("dist/styles/minified/master.min.css");
 
 /* Add custom CSS Rules here */
