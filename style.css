@@ -31,9 +31,16 @@ border-radius: 4px;
 min-height: 220px;
 }
 
-/*header.entry-header {
+header.entry-header {
 	display:none;
-}*/
+}
+
+h1#site-title, h2#site-description{
+position:absolute;	
+top:-9999px;
+left:-9999px;
+}
+
 
 body#calsblack.page div.mobileScroll footer div.ieFooter div.inner div#pre-footer div.linksContainer ul#quick_links li.quick_links_list div.menu ul li.page_item a{
 font-size:14px;
