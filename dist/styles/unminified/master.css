@@ -173,7 +173,7 @@ a.calssl-button {
   background: -webkit-gradient(linear, left top, left bottom, from(#c93f3f), to(#a01818));
   background: linear-gradient(to bottom, #c93f3f 0%, #a01818 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c93f3f', endColorstr='#a01818',GradientType=0 );
   /* IE6-9 */
   border: none;
   border-bottom: 3px solid #7e1010;
@@ -205,7 +205,7 @@ a.calssl-button:hover, a.calssl-button:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#af3838), to(#771111));
   background: linear-gradient(to bottom, #af3838 0%, #771111 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
   /* IE6-9 */
   border-bottom: 3px solid #6b0b0b;
 }
@@ -226,7 +226,7 @@ input[type="reset"]:active, a.calssl-button:active {
   background: -webkit-gradient(linear, left top, left bottom, from(#af3838), to(#771111));
   background: linear-gradient(to bottom, #af3838 0%, #771111 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#af3838', endColorstr='#771111',GradientType=0 );
   /* IE6-9 */
   border: none;
   border-top: 3px solid #961515;
@@ -246,7 +246,7 @@ a.calssl-button.blue {
   background: -webkit-gradient(linear, left top, left bottom, from(#5598d1), to(#4a82b1));
   background: linear-gradient(to bottom, #5598d1 0%, #4a82b1 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#4a82b1',GradientType=0 );
   /* IE6-9 */
   border-bottom: 3px solid #3a6488;
   color: #fff;
@@ -269,7 +269,7 @@ a.calssl-button.blue:focus {
   background: -webkit-gradient(linear, left top, left bottom, from(#5598d1), to(#3a6488));
   background: linear-gradient(to bottom, #5598d1 0%, #3a6488 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5598d1', endColorstr='#3a6488',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5598d1', endColorstr='#3a6488',GradientType=0 );
   /* IE6-9 */
   border-bottom: 3px solid #2e4e68;
 }

@@ -1,6 +1,7 @@
 {
   "name": "equityanddiversity",
   "version": "0.1.0",
+  "description":"a child theme of CALS 2013 theme for the Equity and Diversity site",
   "dependencies": {
     "gulp": "~3.8.10",
     "gulp-ruby-sass": "^0.4.2",
@@ -22,7 +23,8 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.8.10",
-    "gulp-livereload": "^1.5.0"
+    "gulp-livereload": "^1.5.0",
+    "gulp-ruby-sass": "^0.4.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
