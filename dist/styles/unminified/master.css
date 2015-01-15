@@ -318,3 +318,7 @@ p {
   top: -9999px !important;
   left: -9999px !important;
 }
+
+body.page-committee-members .cm-table > tbody > tr:nth-child(1) > td {
+  border-top: 0;
+}

@@ -1,4 +1,6 @@
-// SASS rulesets for the page "committee members"
-#post-28 > div > table > tbody > tr:nth-child(1) > td {
-  border-top: 0;
+// SASS rulesets for the page "committee members" 
+
+// Eliminate the top border on the table
+body.page-committee-members .cm-table > tbody >tr:nth-child(1)>td{
+	 border-top: 0;
 }
